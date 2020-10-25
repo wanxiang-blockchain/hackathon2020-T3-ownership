@@ -1,0 +1,3696 @@
+{
+  "contractName": "AuthorityLibrary",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.6+commit.b259423e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/liqibing/Research/blockchain/ownership/cdt-contracts/contracts/Library.sol\":\"AuthorityLibrary\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/liqibing/Research/blockchain/ownership/cdt-contracts/contracts/Library.sol\":{\"keccak256\":\"0x3891c5d7a80882c8e70887b912cfba8cb1c00e0abeb02f80e50f31437dc42768\",\"urls\":[\"bzzr://3b1beafaeca488ad1f0d5b43635059e1b9cc71cf81d4e9af6a45e4ab40060da5\"]}},\"version\":1}",
+  "bytecode": "0x6102bb610026600b82828239805160001a60731461001957fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600436106100355760003560e01c8063b3ade4681461003a575b600080fd5b81801561004657600080fd5b506100cc6004803603606081101561005d57600080fd5b8135916001600160a01b036020820135169181019060608101604082013564010000000081111561008d57600080fd5b82018360208201111561009f57600080fd5b803590602001918460018302840111640100000000831117156100c157600080fd5b5090925090506100de565b60408051918252519081900360200190f35b6001600160a01b0383811660009081526020869052604081205490911661012f576001858101805491820181556000908152602090200180546001600160a01b0319166001600160a01b0386161790555b6040518060600160405280856001600160a01b0316815260200184848080601f01602080910402602001604051908101604052809392919081815260200183838082843760009201829052509385525050600160209384018190526001600160a01b0389811684528a85526040909320855181546001600160a01b031916941693909317835584840151805193946101cd94928601935001906101f4565b50604091909101516002909101805460ff1916911515919091179055505050506001015490565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061023557805160ff1916838001178555610262565b82800160010185558215610262579182015b82811115610262578251825591602001919060010190610247565b5061026e929150610272565b5090565b61028c91905b8082111561026e5760008155600101610278565b9056fea165627a7a7230582051cbd8ec6bca0470f03212509421cd27bfaa1408a8ac959e21aa4b35e5b8569a0029",
+  "deployedBytecode": "0x73000000000000000000000000000000000000000030146080604052600436106100355760003560e01c8063b3ade4681461003a575b600080fd5b81801561004657600080fd5b506100cc6004803603606081101561005d57600080fd5b8135916001600160a01b036020820135169181019060608101604082013564010000000081111561008d57600080fd5b82018360208201111561009f57600080fd5b803590602001918460018302840111640100000000831117156100c157600080fd5b5090925090506100de565b60408051918252519081900360200190f35b6001600160a01b0383811660009081526020869052604081205490911661012f576001858101805491820181556000908152602090200180546001600160a01b0319166001600160a01b0386161790555b6040518060600160405280856001600160a01b0316815260200184848080601f01602080910402602001604051908101604052809392919081815260200183838082843760009201829052509385525050600160209384018190526001600160a01b0389811684528a85526040909320855181546001600160a01b031916941693909317835584840151805193946101cd94928601935001906101f4565b50604091909101516002909101805460ff1916911515919091179055505050506001015490565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061023557805160ff1916838001178555610262565b82800160010185558215610262579182015b82811115610262578251825591602001919060010190610247565b5061026e929150610272565b5090565b61028c91905b8082111561026e5760008155600101610278565b9056fea165627a7a7230582051cbd8ec6bca0470f03212509421cd27bfaa1408a8ac959e21aa4b35e5b8569a0029",
+  "sourceMap": "980:751:1:-;;132:2:-1;166:7;155:9;146:7;137:37;255:7;249:14;246:1;241:23;235:4;232:33;222:2;;269:9;222:2;293:9;290:1;283:20;323:4;314:7;306:22;347:7;338;331:24",
+  "deployedSourceMap": "980:751:1:-;;;;;;;;;;;;;;;;;;;;;;;;1269:460;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1269:460:1;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1269:460:1;;;-1:-1:-1;;;;;1269:460:1;;;;;;;;;;;;;;;;21:11:-1;5:28;;2:2;;;46:1;43;36:12;2:2;1269:460:1;;35:9:-1;28:4;12:14;8:25;5:40;2:2;;;58:1;55;48:12;2:2;1269:460:1;;;;;;100:9:-1;95:1;81:12;77:20;67:8;63:35;60:50;39:11;25:12;22:29;11:107;8:2;;;131:1;128;121:12;8:2;-1:-1;1269:460:1;;-1:-1:-1;1269:460:1;-1:-1:-1;1269:460:1;:::i;:::-;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;1445:25:1;;;1416:9;1445:25;;;;;;;;;;:31;1416:9;;1445:31;1441:102;;1506:13;;;;27:10:-1;;23:18;;;45:23;;-1:-1;1506:26:1;;;;;;;;;-1:-1:-1;;;;;;1506:26:1;-1:-1:-1;;;;;1506:26:1;;;;;1441:102;1581:103;;;;;;;;1612:6;-1:-1:-1;;;;;1581:103:1;;;;;1638:4;;1581:103;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30:3:-1;22:6;14;1:33;99:1;81:16;;74:27;;;-1:-1;1581:103:1;;;-1:-1:-1;;1669:4:1;1581:103;;;;;;;-1:-1:-1;;;;;1553:25:1;;;;;;;;;;;;:131;;;;-1:-1:-1;;;;;;1553:131:1;;;;;;;;;;;;;;;:25;;:131;;;;;;-1:-1:-1;1553:131:1;;;:::i;:::-;-1:-1:-1;1553:131:1;;;;;;;;;;;;-1:-1:-1;;1553:131:1;;;;;;;;;;-1:-1:-1;;;;;1702:13:1;:20;;1269:460::o;980:751::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;980:751:1;;;-1:-1:-1;980:751:1;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity 0.5.6;\n\n/*\nCDT库函数，维护storage\n*/\nlibrary CDTLibrary {\n\n    struct CDT {\n        address owner;\n        bytes32 lastChecksum;\n        address lastUpdatedBy;\n        uint256 blockNumberUpdated;\n    }\n\n    struct CDTList {\n        mapping(bytes32 => CDT) cdts;\n        bytes32[] cdtIds;\n    }\n    \n    // 注册或更新某一cdt的结构体记录\n    function update(\n        CDTList storage _self,\n        bytes32 _cdt,\n        bytes32 _checksum\n    )\n        external\n        returns (uint size)\n    {\n        address cdtOwner = _self.cdts[_cdt].owner;\n\n        if (cdtOwner == address(0)) {\n            cdtOwner = msg.sender;\n            _self.cdtIds.push(_cdt);\n        }\n\n        _self.cdts[_cdt] = CDT({\n            owner: cdtOwner,\n            lastChecksum: _checksum,\n            lastUpdatedBy: msg.sender,\n            blockNumberUpdated: block.number\n        });\n\n        return _self.cdtIds.length;\n    }\n}\n\n/*\n机构库函数，维护storage\n*/\nlibrary AuthorityLibrary {\n\n    struct Authority {\n        address owner;\n        string name;\n        bool isAuthority;\n    }\n\n    struct AuthorityList {\n        mapping(address => Authority) authorities;\n        address[] members;\n    }\n    \n    // 添加或更新某一组织成员\n    function update(\n        AuthorityList storage _self,\n        address member,\n        string calldata name\n    )\n        external\n        returns (uint size)\n    {\n        if (_self.authorities[member].owner == address(0)) {\n            _self.members.push(member);\n        }\n\n        _self.authorities[member] = Authority({\n            owner: member,\n            name: name,\n            isAuthority: true\n        });\n\n        return _self.members.length;\n    }\n}\n",
+  "sourcePath": "/Users/liqibing/Research/blockchain/ownership/cdt-contracts/contracts/Library.sol",
+  "ast": {
+    "absolutePath": "/Users/liqibing/Research/blockchain/ownership/cdt-contracts/contracts/Library.sol",
+    "exportedSymbols": {
+      "AuthorityLibrary": [
+        476
+      ],
+      "CDTLibrary": [
+        413
+      ]
+    },
+    "id": 477,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 336,
+        "literals": [
+          "solidity",
+          "0.5",
+          ".6"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:22:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "library",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 413,
+        "linearizedBaseContracts": [
+          413
+        ],
+        "name": "CDTLibrary",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "CDTLibrary.CDT",
+            "id": 345,
+            "members": [
+              {
+                "constant": false,
+                "id": 338,
+                "name": "owner",
+                "nodeType": "VariableDeclaration",
+                "scope": 345,
+                "src": "106:13:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                },
+                "typeName": {
+                  "id": 337,
+                  "name": "address",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "106:7:1",
+                  "stateMutability": "nonpayable",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 340,
+                "name": "lastChecksum",
+                "nodeType": "VariableDeclaration",
+                "scope": 345,
+                "src": "129:20:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bytes32",
+                  "typeString": "bytes32"
+                },
+                "typeName": {
+                  "id": 339,
+                  "name": "bytes32",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "129:7:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 342,
+                "name": "lastUpdatedBy",
+                "nodeType": "VariableDeclaration",
+                "scope": 345,
+                "src": "159:21:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                },
+                "typeName": {
+                  "id": 341,
+                  "name": "address",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "159:7:1",
+                  "stateMutability": "nonpayable",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 344,
+                "name": "blockNumberUpdated",
+                "nodeType": "VariableDeclaration",
+                "scope": 345,
+                "src": "190:26:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 343,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "190:7:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              }
+            ],
+            "name": "CDT",
+            "nodeType": "StructDefinition",
+            "scope": 413,
+            "src": "85:138:1",
+            "visibility": "public"
+          },
+          {
+            "canonicalName": "CDTLibrary.CDTList",
+            "id": 353,
+            "members": [
+              {
+                "constant": false,
+                "id": 349,
+                "name": "cdts",
+                "nodeType": "VariableDeclaration",
+                "scope": 353,
+                "src": "254:28:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_CDT_$345_storage_$",
+                  "typeString": "mapping(bytes32 => struct CDTLibrary.CDT)"
+                },
+                "typeName": {
+                  "id": 348,
+                  "keyType": {
+                    "id": 346,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "262:7:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "nodeType": "Mapping",
+                  "src": "254:23:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_CDT_$345_storage_$",
+                    "typeString": "mapping(bytes32 => struct CDTLibrary.CDT)"
+                  },
+                  "valueType": {
+                    "contractScope": null,
+                    "id": 347,
+                    "name": "CDT",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 345,
+                    "src": "273:3:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_CDT_$345_storage_ptr",
+                      "typeString": "struct CDTLibrary.CDT"
+                    }
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 352,
+                "name": "cdtIds",
+                "nodeType": "VariableDeclaration",
+                "scope": 353,
+                "src": "292:16:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_array$_t_bytes32_$dyn_storage_ptr",
+                  "typeString": "bytes32[]"
+                },
+                "typeName": {
+                  "baseType": {
+                    "id": 350,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "292:7:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "id": 351,
+                  "length": null,
+                  "nodeType": "ArrayTypeName",
+                  "src": "292:9:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_array$_t_bytes32_$dyn_storage_ptr",
+                    "typeString": "bytes32[]"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              }
+            ],
+            "name": "CDTList",
+            "nodeType": "StructDefinition",
+            "scope": 413,
+            "src": "229:86:1",
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 411,
+              "nodeType": "Block",
+              "src": "526:412:1",
+              "statements": [
+                {
+                  "assignments": [
+                    365
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 365,
+                      "name": "cdtOwner",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 411,
+                      "src": "536:16:1",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      },
+                      "typeName": {
+                        "id": 364,
+                        "name": "address",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "536:7:1",
+                        "stateMutability": "nonpayable",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      },
+                      "value": null,
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 371,
+                  "initialValue": {
+                    "argumentTypes": null,
+                    "expression": {
+                      "argumentTypes": null,
+                      "baseExpression": {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 366,
+                          "name": "_self",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 355,
+                          "src": "555:5:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_CDTList_$353_storage_ptr",
+                            "typeString": "struct CDTLibrary.CDTList storage pointer"
+                          }
+                        },
+                        "id": 367,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "cdts",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 349,
+                        "src": "555:10:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_CDT_$345_storage_$",
+                          "typeString": "mapping(bytes32 => struct CDTLibrary.CDT storage ref)"
+                        }
+                      },
+                      "id": 369,
+                      "indexExpression": {
+                        "argumentTypes": null,
+                        "id": 368,
+                        "name": "_cdt",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 357,
+                        "src": "566:4:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bytes32",
+                          "typeString": "bytes32"
+                        }
+                      },
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "nodeType": "IndexAccess",
+                      "src": "555:16:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_CDT_$345_storage",
+                        "typeString": "struct CDTLibrary.CDT storage ref"
+                      }
+                    },
+                    "id": 370,
+                    "isConstant": false,
+                    "isLValue": true,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "memberName": "owner",
+                    "nodeType": "MemberAccess",
+                    "referencedDeclaration": 338,
+                    "src": "555:22:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "536:41:1"
+                },
+                {
+                  "condition": {
+                    "argumentTypes": null,
+                    "commonType": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    },
+                    "id": 376,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "argumentTypes": null,
+                      "id": 372,
+                      "name": "cdtOwner",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 365,
+                      "src": "592:8:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "==",
+                    "rightExpression": {
+                      "argumentTypes": null,
+                      "arguments": [
+                        {
+                          "argumentTypes": null,
+                          "hexValue": "30",
+                          "id": 374,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "number",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "612:1:1",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_rational_0_by_1",
+                            "typeString": "int_const 0"
+                          },
+                          "value": "0"
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_rational_0_by_1",
+                            "typeString": "int_const 0"
+                          }
+                        ],
+                        "id": 373,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "lValueRequested": false,
+                        "nodeType": "ElementaryTypeNameExpression",
+                        "src": "604:7:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_address_$",
+                          "typeString": "type(address)"
+                        },
+                        "typeName": "address"
+                      },
+                      "id": 375,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "typeConversion",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "604:10:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address_payable",
+                        "typeString": "address payable"
+                      }
+                    },
+                    "src": "592:22:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "falseBody": null,
+                  "id": 391,
+                  "nodeType": "IfStatement",
+                  "src": "588:111:1",
+                  "trueBody": {
+                    "id": 390,
+                    "nodeType": "Block",
+                    "src": "616:83:1",
+                    "statements": [
+                      {
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 380,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftHandSide": {
+                            "argumentTypes": null,
+                            "id": 377,
+                            "name": "cdtOwner",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 365,
+                            "src": "630:8:1",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          },
+                          "nodeType": "Assignment",
+                          "operator": "=",
+                          "rightHandSide": {
+                            "argumentTypes": null,
+                            "expression": {
+                              "argumentTypes": null,
+                              "id": 378,
+                              "name": "msg",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 775,
+                              "src": "641:3:1",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_magic_message",
+                                "typeString": "msg"
+                              }
+                            },
+                            "id": 379,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "lValueRequested": false,
+                            "memberName": "sender",
+                            "nodeType": "MemberAccess",
+                            "referencedDeclaration": null,
+                            "src": "641:10:1",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_address_payable",
+                              "typeString": "address payable"
+                            }
+                          },
+                          "src": "630:21:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          }
+                        },
+                        "id": 381,
+                        "nodeType": "ExpressionStatement",
+                        "src": "630:21:1"
+                      },
+                      {
+                        "expression": {
+                          "argumentTypes": null,
+                          "arguments": [
+                            {
+                              "argumentTypes": null,
+                              "id": 387,
+                              "name": "_cdt",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 357,
+                              "src": "683:4:1",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_bytes32",
+                                "typeString": "bytes32"
+                              }
+                            }
+                          ],
+                          "expression": {
+                            "argumentTypes": [
+                              {
+                                "typeIdentifier": "t_bytes32",
+                                "typeString": "bytes32"
+                              }
+                            ],
+                            "expression": {
+                              "argumentTypes": null,
+                              "expression": {
+                                "argumentTypes": null,
+                                "id": 382,
+                                "name": "_self",
+                                "nodeType": "Identifier",
+                                "overloadedDeclarations": [],
+                                "referencedDeclaration": 355,
+                                "src": "665:5:1",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_struct$_CDTList_$353_storage_ptr",
+                                  "typeString": "struct CDTLibrary.CDTList storage pointer"
+                                }
+                              },
+                              "id": 385,
+                              "isConstant": false,
+                              "isLValue": true,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "memberName": "cdtIds",
+                              "nodeType": "MemberAccess",
+                              "referencedDeclaration": 352,
+                              "src": "665:12:1",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_array$_t_bytes32_$dyn_storage",
+                                "typeString": "bytes32[] storage ref"
+                              }
+                            },
+                            "id": 386,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "lValueRequested": false,
+                            "memberName": "push",
+                            "nodeType": "MemberAccess",
+                            "referencedDeclaration": null,
+                            "src": "665:17:1",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_function_arraypush_nonpayable$_t_bytes32_$returns$_t_uint256_$",
+                              "typeString": "function (bytes32) returns (uint256)"
+                            }
+                          },
+                          "id": 388,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "kind": "functionCall",
+                          "lValueRequested": false,
+                          "names": [],
+                          "nodeType": "FunctionCall",
+                          "src": "665:23:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "id": 389,
+                        "nodeType": "ExpressionStatement",
+                        "src": "665:23:1"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 405,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "baseExpression": {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 392,
+                          "name": "_self",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 355,
+                          "src": "709:5:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_CDTList_$353_storage_ptr",
+                            "typeString": "struct CDTLibrary.CDTList storage pointer"
+                          }
+                        },
+                        "id": 395,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "cdts",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 349,
+                        "src": "709:10:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_CDT_$345_storage_$",
+                          "typeString": "mapping(bytes32 => struct CDTLibrary.CDT storage ref)"
+                        }
+                      },
+                      "id": 396,
+                      "indexExpression": {
+                        "argumentTypes": null,
+                        "id": 394,
+                        "name": "_cdt",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 357,
+                        "src": "720:4:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bytes32",
+                          "typeString": "bytes32"
+                        }
+                      },
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "nodeType": "IndexAccess",
+                      "src": "709:16:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_CDT_$345_storage",
+                        "typeString": "struct CDTLibrary.CDT storage ref"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "arguments": [
+                        {
+                          "argumentTypes": null,
+                          "id": 398,
+                          "name": "cdtOwner",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 365,
+                          "src": "753:8:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          }
+                        },
+                        {
+                          "argumentTypes": null,
+                          "id": 399,
+                          "name": "_checksum",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 359,
+                          "src": "789:9:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_bytes32",
+                            "typeString": "bytes32"
+                          }
+                        },
+                        {
+                          "argumentTypes": null,
+                          "expression": {
+                            "argumentTypes": null,
+                            "id": 400,
+                            "name": "msg",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 775,
+                            "src": "827:3:1",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_magic_message",
+                              "typeString": "msg"
+                            }
+                          },
+                          "id": 401,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "memberName": "sender",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": null,
+                          "src": "827:10:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_address_payable",
+                            "typeString": "address payable"
+                          }
+                        },
+                        {
+                          "argumentTypes": null,
+                          "expression": {
+                            "argumentTypes": null,
+                            "id": 402,
+                            "name": "block",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 765,
+                            "src": "871:5:1",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_magic_block",
+                              "typeString": "block"
+                            }
+                          },
+                          "id": 403,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "memberName": "number",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": null,
+                          "src": "871:12:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 397,
+                        "name": "CDT",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 345,
+                        "src": "728:3:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_struct$_CDT_$345_storage_ptr_$",
+                          "typeString": "type(struct CDTLibrary.CDT storage pointer)"
+                        }
+                      },
+                      "id": 404,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "structConstructorCall",
+                      "lValueRequested": false,
+                      "names": [
+                        "owner",
+                        "lastChecksum",
+                        "lastUpdatedBy",
+                        "blockNumberUpdated"
+                      ],
+                      "nodeType": "FunctionCall",
+                      "src": "728:166:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_CDT_$345_memory",
+                        "typeString": "struct CDTLibrary.CDT memory"
+                      }
+                    },
+                    "src": "709:185:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_CDT_$345_storage",
+                      "typeString": "struct CDTLibrary.CDT storage ref"
+                    }
+                  },
+                  "id": 406,
+                  "nodeType": "ExpressionStatement",
+                  "src": "709:185:1"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "expression": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 407,
+                        "name": "_self",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 355,
+                        "src": "912:5:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_CDTList_$353_storage_ptr",
+                          "typeString": "struct CDTLibrary.CDTList storage pointer"
+                        }
+                      },
+                      "id": 408,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "cdtIds",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 352,
+                      "src": "912:12:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_array$_t_bytes32_$dyn_storage",
+                        "typeString": "bytes32[] storage ref"
+                      }
+                    },
+                    "id": 409,
+                    "isConstant": false,
+                    "isLValue": true,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "memberName": "length",
+                    "nodeType": "MemberAccess",
+                    "referencedDeclaration": null,
+                    "src": "912:19:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "functionReturnParameters": 363,
+                  "id": 410,
+                  "nodeType": "Return",
+                  "src": "905:26:1"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 412,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "update",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 360,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 355,
+                  "name": "_self",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 412,
+                  "src": "400:21:1",
+                  "stateVariable": false,
+                  "storageLocation": "storage",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_struct$_CDTList_$353_storage_ptr",
+                    "typeString": "struct CDTLibrary.CDTList"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 354,
+                    "name": "CDTList",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 353,
+                    "src": "400:7:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_CDTList_$353_storage_ptr",
+                      "typeString": "struct CDTLibrary.CDTList"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 357,
+                  "name": "_cdt",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 412,
+                  "src": "431:12:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  },
+                  "typeName": {
+                    "id": 356,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "431:7:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 359,
+                  "name": "_checksum",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 412,
+                  "src": "453:17:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  },
+                  "typeName": {
+                    "id": 358,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "453:7:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "390:86:1"
+            },
+            "returnParameters": {
+              "id": 363,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 362,
+                  "name": "size",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 412,
+                  "src": "511:9:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 361,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "511:4:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "510:11:1"
+            },
+            "scope": 413,
+            "src": "375:563:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "external"
+          }
+        ],
+        "scope": 477,
+        "src": "59:881:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "library",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 476,
+        "linearizedBaseContracts": [
+          476
+        ],
+        "name": "AuthorityLibrary",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "AuthorityLibrary.Authority",
+            "id": 420,
+            "members": [
+              {
+                "constant": false,
+                "id": 415,
+                "name": "owner",
+                "nodeType": "VariableDeclaration",
+                "scope": 420,
+                "src": "1039:13:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                },
+                "typeName": {
+                  "id": 414,
+                  "name": "address",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "1039:7:1",
+                  "stateMutability": "nonpayable",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 417,
+                "name": "name",
+                "nodeType": "VariableDeclaration",
+                "scope": 420,
+                "src": "1062:11:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 416,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "1062:6:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 419,
+                "name": "isAuthority",
+                "nodeType": "VariableDeclaration",
+                "scope": 420,
+                "src": "1083:16:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bool",
+                  "typeString": "bool"
+                },
+                "typeName": {
+                  "id": 418,
+                  "name": "bool",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "1083:4:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              }
+            ],
+            "name": "Authority",
+            "nodeType": "StructDefinition",
+            "scope": 476,
+            "src": "1012:94:1",
+            "visibility": "public"
+          },
+          {
+            "canonicalName": "AuthorityLibrary.AuthorityList",
+            "id": 428,
+            "members": [
+              {
+                "constant": false,
+                "id": 424,
+                "name": "authorities",
+                "nodeType": "VariableDeclaration",
+                "scope": 428,
+                "src": "1143:41:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Authority_$420_storage_$",
+                  "typeString": "mapping(address => struct AuthorityLibrary.Authority)"
+                },
+                "typeName": {
+                  "id": 423,
+                  "keyType": {
+                    "id": 421,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1151:7:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "nodeType": "Mapping",
+                  "src": "1143:29:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Authority_$420_storage_$",
+                    "typeString": "mapping(address => struct AuthorityLibrary.Authority)"
+                  },
+                  "valueType": {
+                    "contractScope": null,
+                    "id": 422,
+                    "name": "Authority",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 420,
+                    "src": "1162:9:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_Authority_$420_storage_ptr",
+                      "typeString": "struct AuthorityLibrary.Authority"
+                    }
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 427,
+                "name": "members",
+                "nodeType": "VariableDeclaration",
+                "scope": 428,
+                "src": "1194:17:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_array$_t_address_$dyn_storage_ptr",
+                  "typeString": "address[]"
+                },
+                "typeName": {
+                  "baseType": {
+                    "id": 425,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1194:7:1",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "id": 426,
+                  "length": null,
+                  "nodeType": "ArrayTypeName",
+                  "src": "1194:9:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_array$_t_address_$dyn_storage_ptr",
+                    "typeString": "address[]"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              }
+            ],
+            "name": "AuthorityList",
+            "nodeType": "StructDefinition",
+            "scope": 476,
+            "src": "1112:106:1",
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 474,
+              "nodeType": "Block",
+              "src": "1431:298:1",
+              "statements": [
+                {
+                  "condition": {
+                    "argumentTypes": null,
+                    "commonType": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    },
+                    "id": 447,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "baseExpression": {
+                          "argumentTypes": null,
+                          "expression": {
+                            "argumentTypes": null,
+                            "id": 439,
+                            "name": "_self",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 430,
+                            "src": "1445:5:1",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_struct$_AuthorityList_$428_storage_ptr",
+                              "typeString": "struct AuthorityLibrary.AuthorityList storage pointer"
+                            }
+                          },
+                          "id": 440,
+                          "isConstant": false,
+                          "isLValue": true,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "memberName": "authorities",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": 424,
+                          "src": "1445:17:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Authority_$420_storage_$",
+                            "typeString": "mapping(address => struct AuthorityLibrary.Authority storage ref)"
+                          }
+                        },
+                        "id": 442,
+                        "indexExpression": {
+                          "argumentTypes": null,
+                          "id": 441,
+                          "name": "member",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 432,
+                          "src": "1463:6:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          }
+                        },
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "nodeType": "IndexAccess",
+                        "src": "1445:25:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_Authority_$420_storage",
+                          "typeString": "struct AuthorityLibrary.Authority storage ref"
+                        }
+                      },
+                      "id": 443,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "owner",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 415,
+                      "src": "1445:31:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "==",
+                    "rightExpression": {
+                      "argumentTypes": null,
+                      "arguments": [
+                        {
+                          "argumentTypes": null,
+                          "hexValue": "30",
+                          "id": 445,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "number",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "1488:1:1",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_rational_0_by_1",
+                            "typeString": "int_const 0"
+                          },
+                          "value": "0"
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_rational_0_by_1",
+                            "typeString": "int_const 0"
+                          }
+                        ],
+                        "id": 444,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "lValueRequested": false,
+                        "nodeType": "ElementaryTypeNameExpression",
+                        "src": "1480:7:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_address_$",
+                          "typeString": "type(address)"
+                        },
+                        "typeName": "address"
+                      },
+                      "id": 446,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "typeConversion",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "1480:10:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address_payable",
+                        "typeString": "address payable"
+                      }
+                    },
+                    "src": "1445:45:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "falseBody": null,
+                  "id": 457,
+                  "nodeType": "IfStatement",
+                  "src": "1441:102:1",
+                  "trueBody": {
+                    "id": 456,
+                    "nodeType": "Block",
+                    "src": "1492:51:1",
+                    "statements": [
+                      {
+                        "expression": {
+                          "argumentTypes": null,
+                          "arguments": [
+                            {
+                              "argumentTypes": null,
+                              "id": 453,
+                              "name": "member",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 432,
+                              "src": "1525:6:1",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_address",
+                                "typeString": "address"
+                              }
+                            }
+                          ],
+                          "expression": {
+                            "argumentTypes": [
+                              {
+                                "typeIdentifier": "t_address",
+                                "typeString": "address"
+                              }
+                            ],
+                            "expression": {
+                              "argumentTypes": null,
+                              "expression": {
+                                "argumentTypes": null,
+                                "id": 448,
+                                "name": "_self",
+                                "nodeType": "Identifier",
+                                "overloadedDeclarations": [],
+                                "referencedDeclaration": 430,
+                                "src": "1506:5:1",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_struct$_AuthorityList_$428_storage_ptr",
+                                  "typeString": "struct AuthorityLibrary.AuthorityList storage pointer"
+                                }
+                              },
+                              "id": 451,
+                              "isConstant": false,
+                              "isLValue": true,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "memberName": "members",
+                              "nodeType": "MemberAccess",
+                              "referencedDeclaration": 427,
+                              "src": "1506:13:1",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_array$_t_address_$dyn_storage",
+                                "typeString": "address[] storage ref"
+                              }
+                            },
+                            "id": 452,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "lValueRequested": false,
+                            "memberName": "push",
+                            "nodeType": "MemberAccess",
+                            "referencedDeclaration": null,
+                            "src": "1506:18:1",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_function_arraypush_nonpayable$_t_address_$returns$_t_uint256_$",
+                              "typeString": "function (address) returns (uint256)"
+                            }
+                          },
+                          "id": 454,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "kind": "functionCall",
+                          "lValueRequested": false,
+                          "names": [],
+                          "nodeType": "FunctionCall",
+                          "src": "1506:26:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "id": 455,
+                        "nodeType": "ExpressionStatement",
+                        "src": "1506:26:1"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 468,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "baseExpression": {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 458,
+                          "name": "_self",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 430,
+                          "src": "1553:5:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_AuthorityList_$428_storage_ptr",
+                            "typeString": "struct AuthorityLibrary.AuthorityList storage pointer"
+                          }
+                        },
+                        "id": 461,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "authorities",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 424,
+                        "src": "1553:17:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Authority_$420_storage_$",
+                          "typeString": "mapping(address => struct AuthorityLibrary.Authority storage ref)"
+                        }
+                      },
+                      "id": 462,
+                      "indexExpression": {
+                        "argumentTypes": null,
+                        "id": 460,
+                        "name": "member",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 432,
+                        "src": "1571:6:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      },
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "nodeType": "IndexAccess",
+                      "src": "1553:25:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_Authority_$420_storage",
+                        "typeString": "struct AuthorityLibrary.Authority storage ref"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "arguments": [
+                        {
+                          "argumentTypes": null,
+                          "id": 464,
+                          "name": "member",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 432,
+                          "src": "1612:6:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          }
+                        },
+                        {
+                          "argumentTypes": null,
+                          "id": 465,
+                          "name": "name",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 434,
+                          "src": "1638:4:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_string_calldata_ptr",
+                            "typeString": "string calldata"
+                          }
+                        },
+                        {
+                          "argumentTypes": null,
+                          "hexValue": "74727565",
+                          "id": 466,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "bool",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "1669:4:1",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_bool",
+                            "typeString": "bool"
+                          },
+                          "value": "true"
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 463,
+                        "name": "Authority",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 420,
+                        "src": "1581:9:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_struct$_Authority_$420_storage_ptr_$",
+                          "typeString": "type(struct AuthorityLibrary.Authority storage pointer)"
+                        }
+                      },
+                      "id": 467,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "structConstructorCall",
+                      "lValueRequested": false,
+                      "names": [
+                        "owner",
+                        "name",
+                        "isAuthority"
+                      ],
+                      "nodeType": "FunctionCall",
+                      "src": "1581:103:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_Authority_$420_memory",
+                        "typeString": "struct AuthorityLibrary.Authority memory"
+                      }
+                    },
+                    "src": "1553:131:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_Authority_$420_storage",
+                      "typeString": "struct AuthorityLibrary.Authority storage ref"
+                    }
+                  },
+                  "id": 469,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1553:131:1"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "expression": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 470,
+                        "name": "_self",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 430,
+                        "src": "1702:5:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_AuthorityList_$428_storage_ptr",
+                          "typeString": "struct AuthorityLibrary.AuthorityList storage pointer"
+                        }
+                      },
+                      "id": 471,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "members",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 427,
+                      "src": "1702:13:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_array$_t_address_$dyn_storage",
+                        "typeString": "address[] storage ref"
+                      }
+                    },
+                    "id": 472,
+                    "isConstant": false,
+                    "isLValue": true,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "memberName": "length",
+                    "nodeType": "MemberAccess",
+                    "referencedDeclaration": null,
+                    "src": "1702:20:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "functionReturnParameters": 438,
+                  "id": 473,
+                  "nodeType": "Return",
+                  "src": "1695:27:1"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 475,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "update",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 435,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 430,
+                  "name": "_self",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 475,
+                  "src": "1294:27:1",
+                  "stateVariable": false,
+                  "storageLocation": "storage",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_struct$_AuthorityList_$428_storage_ptr",
+                    "typeString": "struct AuthorityLibrary.AuthorityList"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 429,
+                    "name": "AuthorityList",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 428,
+                    "src": "1294:13:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_AuthorityList_$428_storage_ptr",
+                      "typeString": "struct AuthorityLibrary.AuthorityList"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 432,
+                  "name": "member",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 475,
+                  "src": "1331:14:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 431,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1331:7:1",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 434,
+                  "name": "name",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 475,
+                  "src": "1355:20:1",
+                  "stateVariable": false,
+                  "storageLocation": "calldata",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_calldata_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 433,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1355:6:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1284:97:1"
+            },
+            "returnParameters": {
+              "id": 438,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 437,
+                  "name": "size",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 475,
+                  "src": "1416:9:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 436,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1416:4:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1415:11:1"
+            },
+            "scope": 476,
+            "src": "1269:460:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "external"
+          }
+        ],
+        "scope": 477,
+        "src": "980:751:1"
+      }
+    ],
+    "src": "0:1732:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/liqibing/Research/blockchain/ownership/cdt-contracts/contracts/Library.sol",
+    "exportedSymbols": {
+      "AuthorityLibrary": [
+        476
+      ],
+      "CDTLibrary": [
+        413
+      ]
+    },
+    "id": 477,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 336,
+        "literals": [
+          "solidity",
+          "0.5",
+          ".6"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:22:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "library",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 413,
+        "linearizedBaseContracts": [
+          413
+        ],
+        "name": "CDTLibrary",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "CDTLibrary.CDT",
+            "id": 345,
+            "members": [
+              {
+                "constant": false,
+                "id": 338,
+                "name": "owner",
+                "nodeType": "VariableDeclaration",
+                "scope": 345,
+                "src": "106:13:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                },
+                "typeName": {
+                  "id": 337,
+                  "name": "address",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "106:7:1",
+                  "stateMutability": "nonpayable",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 340,
+                "name": "lastChecksum",
+                "nodeType": "VariableDeclaration",
+                "scope": 345,
+                "src": "129:20:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bytes32",
+                  "typeString": "bytes32"
+                },
+                "typeName": {
+                  "id": 339,
+                  "name": "bytes32",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "129:7:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 342,
+                "name": "lastUpdatedBy",
+                "nodeType": "VariableDeclaration",
+                "scope": 345,
+                "src": "159:21:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                },
+                "typeName": {
+                  "id": 341,
+                  "name": "address",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "159:7:1",
+                  "stateMutability": "nonpayable",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 344,
+                "name": "blockNumberUpdated",
+                "nodeType": "VariableDeclaration",
+                "scope": 345,
+                "src": "190:26:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 343,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "190:7:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              }
+            ],
+            "name": "CDT",
+            "nodeType": "StructDefinition",
+            "scope": 413,
+            "src": "85:138:1",
+            "visibility": "public"
+          },
+          {
+            "canonicalName": "CDTLibrary.CDTList",
+            "id": 353,
+            "members": [
+              {
+                "constant": false,
+                "id": 349,
+                "name": "cdts",
+                "nodeType": "VariableDeclaration",
+                "scope": 353,
+                "src": "254:28:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_CDT_$345_storage_$",
+                  "typeString": "mapping(bytes32 => struct CDTLibrary.CDT)"
+                },
+                "typeName": {
+                  "id": 348,
+                  "keyType": {
+                    "id": 346,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "262:7:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "nodeType": "Mapping",
+                  "src": "254:23:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_CDT_$345_storage_$",
+                    "typeString": "mapping(bytes32 => struct CDTLibrary.CDT)"
+                  },
+                  "valueType": {
+                    "contractScope": null,
+                    "id": 347,
+                    "name": "CDT",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 345,
+                    "src": "273:3:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_CDT_$345_storage_ptr",
+                      "typeString": "struct CDTLibrary.CDT"
+                    }
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 352,
+                "name": "cdtIds",
+                "nodeType": "VariableDeclaration",
+                "scope": 353,
+                "src": "292:16:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_array$_t_bytes32_$dyn_storage_ptr",
+                  "typeString": "bytes32[]"
+                },
+                "typeName": {
+                  "baseType": {
+                    "id": 350,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "292:7:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "id": 351,
+                  "length": null,
+                  "nodeType": "ArrayTypeName",
+                  "src": "292:9:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_array$_t_bytes32_$dyn_storage_ptr",
+                    "typeString": "bytes32[]"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              }
+            ],
+            "name": "CDTList",
+            "nodeType": "StructDefinition",
+            "scope": 413,
+            "src": "229:86:1",
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 411,
+              "nodeType": "Block",
+              "src": "526:412:1",
+              "statements": [
+                {
+                  "assignments": [
+                    365
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 365,
+                      "name": "cdtOwner",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 411,
+                      "src": "536:16:1",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      },
+                      "typeName": {
+                        "id": 364,
+                        "name": "address",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "536:7:1",
+                        "stateMutability": "nonpayable",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      },
+                      "value": null,
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 371,
+                  "initialValue": {
+                    "argumentTypes": null,
+                    "expression": {
+                      "argumentTypes": null,
+                      "baseExpression": {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 366,
+                          "name": "_self",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 355,
+                          "src": "555:5:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_CDTList_$353_storage_ptr",
+                            "typeString": "struct CDTLibrary.CDTList storage pointer"
+                          }
+                        },
+                        "id": 367,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "cdts",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 349,
+                        "src": "555:10:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_CDT_$345_storage_$",
+                          "typeString": "mapping(bytes32 => struct CDTLibrary.CDT storage ref)"
+                        }
+                      },
+                      "id": 369,
+                      "indexExpression": {
+                        "argumentTypes": null,
+                        "id": 368,
+                        "name": "_cdt",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 357,
+                        "src": "566:4:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bytes32",
+                          "typeString": "bytes32"
+                        }
+                      },
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "nodeType": "IndexAccess",
+                      "src": "555:16:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_CDT_$345_storage",
+                        "typeString": "struct CDTLibrary.CDT storage ref"
+                      }
+                    },
+                    "id": 370,
+                    "isConstant": false,
+                    "isLValue": true,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "memberName": "owner",
+                    "nodeType": "MemberAccess",
+                    "referencedDeclaration": 338,
+                    "src": "555:22:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "536:41:1"
+                },
+                {
+                  "condition": {
+                    "argumentTypes": null,
+                    "commonType": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    },
+                    "id": 376,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "argumentTypes": null,
+                      "id": 372,
+                      "name": "cdtOwner",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 365,
+                      "src": "592:8:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "==",
+                    "rightExpression": {
+                      "argumentTypes": null,
+                      "arguments": [
+                        {
+                          "argumentTypes": null,
+                          "hexValue": "30",
+                          "id": 374,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "number",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "612:1:1",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_rational_0_by_1",
+                            "typeString": "int_const 0"
+                          },
+                          "value": "0"
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_rational_0_by_1",
+                            "typeString": "int_const 0"
+                          }
+                        ],
+                        "id": 373,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "lValueRequested": false,
+                        "nodeType": "ElementaryTypeNameExpression",
+                        "src": "604:7:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_address_$",
+                          "typeString": "type(address)"
+                        },
+                        "typeName": "address"
+                      },
+                      "id": 375,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "typeConversion",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "604:10:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address_payable",
+                        "typeString": "address payable"
+                      }
+                    },
+                    "src": "592:22:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "falseBody": null,
+                  "id": 391,
+                  "nodeType": "IfStatement",
+                  "src": "588:111:1",
+                  "trueBody": {
+                    "id": 390,
+                    "nodeType": "Block",
+                    "src": "616:83:1",
+                    "statements": [
+                      {
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 380,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftHandSide": {
+                            "argumentTypes": null,
+                            "id": 377,
+                            "name": "cdtOwner",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 365,
+                            "src": "630:8:1",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          },
+                          "nodeType": "Assignment",
+                          "operator": "=",
+                          "rightHandSide": {
+                            "argumentTypes": null,
+                            "expression": {
+                              "argumentTypes": null,
+                              "id": 378,
+                              "name": "msg",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 775,
+                              "src": "641:3:1",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_magic_message",
+                                "typeString": "msg"
+                              }
+                            },
+                            "id": 379,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "lValueRequested": false,
+                            "memberName": "sender",
+                            "nodeType": "MemberAccess",
+                            "referencedDeclaration": null,
+                            "src": "641:10:1",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_address_payable",
+                              "typeString": "address payable"
+                            }
+                          },
+                          "src": "630:21:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          }
+                        },
+                        "id": 381,
+                        "nodeType": "ExpressionStatement",
+                        "src": "630:21:1"
+                      },
+                      {
+                        "expression": {
+                          "argumentTypes": null,
+                          "arguments": [
+                            {
+                              "argumentTypes": null,
+                              "id": 387,
+                              "name": "_cdt",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 357,
+                              "src": "683:4:1",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_bytes32",
+                                "typeString": "bytes32"
+                              }
+                            }
+                          ],
+                          "expression": {
+                            "argumentTypes": [
+                              {
+                                "typeIdentifier": "t_bytes32",
+                                "typeString": "bytes32"
+                              }
+                            ],
+                            "expression": {
+                              "argumentTypes": null,
+                              "expression": {
+                                "argumentTypes": null,
+                                "id": 382,
+                                "name": "_self",
+                                "nodeType": "Identifier",
+                                "overloadedDeclarations": [],
+                                "referencedDeclaration": 355,
+                                "src": "665:5:1",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_struct$_CDTList_$353_storage_ptr",
+                                  "typeString": "struct CDTLibrary.CDTList storage pointer"
+                                }
+                              },
+                              "id": 385,
+                              "isConstant": false,
+                              "isLValue": true,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "memberName": "cdtIds",
+                              "nodeType": "MemberAccess",
+                              "referencedDeclaration": 352,
+                              "src": "665:12:1",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_array$_t_bytes32_$dyn_storage",
+                                "typeString": "bytes32[] storage ref"
+                              }
+                            },
+                            "id": 386,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "lValueRequested": false,
+                            "memberName": "push",
+                            "nodeType": "MemberAccess",
+                            "referencedDeclaration": null,
+                            "src": "665:17:1",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_function_arraypush_nonpayable$_t_bytes32_$returns$_t_uint256_$",
+                              "typeString": "function (bytes32) returns (uint256)"
+                            }
+                          },
+                          "id": 388,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "kind": "functionCall",
+                          "lValueRequested": false,
+                          "names": [],
+                          "nodeType": "FunctionCall",
+                          "src": "665:23:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "id": 389,
+                        "nodeType": "ExpressionStatement",
+                        "src": "665:23:1"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 405,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "baseExpression": {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 392,
+                          "name": "_self",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 355,
+                          "src": "709:5:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_CDTList_$353_storage_ptr",
+                            "typeString": "struct CDTLibrary.CDTList storage pointer"
+                          }
+                        },
+                        "id": 395,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "cdts",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 349,
+                        "src": "709:10:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_CDT_$345_storage_$",
+                          "typeString": "mapping(bytes32 => struct CDTLibrary.CDT storage ref)"
+                        }
+                      },
+                      "id": 396,
+                      "indexExpression": {
+                        "argumentTypes": null,
+                        "id": 394,
+                        "name": "_cdt",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 357,
+                        "src": "720:4:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bytes32",
+                          "typeString": "bytes32"
+                        }
+                      },
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "nodeType": "IndexAccess",
+                      "src": "709:16:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_CDT_$345_storage",
+                        "typeString": "struct CDTLibrary.CDT storage ref"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "arguments": [
+                        {
+                          "argumentTypes": null,
+                          "id": 398,
+                          "name": "cdtOwner",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 365,
+                          "src": "753:8:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          }
+                        },
+                        {
+                          "argumentTypes": null,
+                          "id": 399,
+                          "name": "_checksum",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 359,
+                          "src": "789:9:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_bytes32",
+                            "typeString": "bytes32"
+                          }
+                        },
+                        {
+                          "argumentTypes": null,
+                          "expression": {
+                            "argumentTypes": null,
+                            "id": 400,
+                            "name": "msg",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 775,
+                            "src": "827:3:1",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_magic_message",
+                              "typeString": "msg"
+                            }
+                          },
+                          "id": 401,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "memberName": "sender",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": null,
+                          "src": "827:10:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_address_payable",
+                            "typeString": "address payable"
+                          }
+                        },
+                        {
+                          "argumentTypes": null,
+                          "expression": {
+                            "argumentTypes": null,
+                            "id": 402,
+                            "name": "block",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 765,
+                            "src": "871:5:1",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_magic_block",
+                              "typeString": "block"
+                            }
+                          },
+                          "id": 403,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "memberName": "number",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": null,
+                          "src": "871:12:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 397,
+                        "name": "CDT",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 345,
+                        "src": "728:3:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_struct$_CDT_$345_storage_ptr_$",
+                          "typeString": "type(struct CDTLibrary.CDT storage pointer)"
+                        }
+                      },
+                      "id": 404,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "structConstructorCall",
+                      "lValueRequested": false,
+                      "names": [
+                        "owner",
+                        "lastChecksum",
+                        "lastUpdatedBy",
+                        "blockNumberUpdated"
+                      ],
+                      "nodeType": "FunctionCall",
+                      "src": "728:166:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_CDT_$345_memory",
+                        "typeString": "struct CDTLibrary.CDT memory"
+                      }
+                    },
+                    "src": "709:185:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_CDT_$345_storage",
+                      "typeString": "struct CDTLibrary.CDT storage ref"
+                    }
+                  },
+                  "id": 406,
+                  "nodeType": "ExpressionStatement",
+                  "src": "709:185:1"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "expression": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 407,
+                        "name": "_self",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 355,
+                        "src": "912:5:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_CDTList_$353_storage_ptr",
+                          "typeString": "struct CDTLibrary.CDTList storage pointer"
+                        }
+                      },
+                      "id": 408,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "cdtIds",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 352,
+                      "src": "912:12:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_array$_t_bytes32_$dyn_storage",
+                        "typeString": "bytes32[] storage ref"
+                      }
+                    },
+                    "id": 409,
+                    "isConstant": false,
+                    "isLValue": true,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "memberName": "length",
+                    "nodeType": "MemberAccess",
+                    "referencedDeclaration": null,
+                    "src": "912:19:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "functionReturnParameters": 363,
+                  "id": 410,
+                  "nodeType": "Return",
+                  "src": "905:26:1"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 412,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "update",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 360,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 355,
+                  "name": "_self",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 412,
+                  "src": "400:21:1",
+                  "stateVariable": false,
+                  "storageLocation": "storage",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_struct$_CDTList_$353_storage_ptr",
+                    "typeString": "struct CDTLibrary.CDTList"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 354,
+                    "name": "CDTList",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 353,
+                    "src": "400:7:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_CDTList_$353_storage_ptr",
+                      "typeString": "struct CDTLibrary.CDTList"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 357,
+                  "name": "_cdt",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 412,
+                  "src": "431:12:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  },
+                  "typeName": {
+                    "id": 356,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "431:7:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 359,
+                  "name": "_checksum",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 412,
+                  "src": "453:17:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  },
+                  "typeName": {
+                    "id": 358,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "453:7:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "390:86:1"
+            },
+            "returnParameters": {
+              "id": 363,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 362,
+                  "name": "size",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 412,
+                  "src": "511:9:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 361,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "511:4:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "510:11:1"
+            },
+            "scope": 413,
+            "src": "375:563:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "external"
+          }
+        ],
+        "scope": 477,
+        "src": "59:881:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "library",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 476,
+        "linearizedBaseContracts": [
+          476
+        ],
+        "name": "AuthorityLibrary",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "AuthorityLibrary.Authority",
+            "id": 420,
+            "members": [
+              {
+                "constant": false,
+                "id": 415,
+                "name": "owner",
+                "nodeType": "VariableDeclaration",
+                "scope": 420,
+                "src": "1039:13:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                },
+                "typeName": {
+                  "id": 414,
+                  "name": "address",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "1039:7:1",
+                  "stateMutability": "nonpayable",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 417,
+                "name": "name",
+                "nodeType": "VariableDeclaration",
+                "scope": 420,
+                "src": "1062:11:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 416,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "1062:6:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 419,
+                "name": "isAuthority",
+                "nodeType": "VariableDeclaration",
+                "scope": 420,
+                "src": "1083:16:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bool",
+                  "typeString": "bool"
+                },
+                "typeName": {
+                  "id": 418,
+                  "name": "bool",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "1083:4:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              }
+            ],
+            "name": "Authority",
+            "nodeType": "StructDefinition",
+            "scope": 476,
+            "src": "1012:94:1",
+            "visibility": "public"
+          },
+          {
+            "canonicalName": "AuthorityLibrary.AuthorityList",
+            "id": 428,
+            "members": [
+              {
+                "constant": false,
+                "id": 424,
+                "name": "authorities",
+                "nodeType": "VariableDeclaration",
+                "scope": 428,
+                "src": "1143:41:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Authority_$420_storage_$",
+                  "typeString": "mapping(address => struct AuthorityLibrary.Authority)"
+                },
+                "typeName": {
+                  "id": 423,
+                  "keyType": {
+                    "id": 421,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1151:7:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "nodeType": "Mapping",
+                  "src": "1143:29:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Authority_$420_storage_$",
+                    "typeString": "mapping(address => struct AuthorityLibrary.Authority)"
+                  },
+                  "valueType": {
+                    "contractScope": null,
+                    "id": 422,
+                    "name": "Authority",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 420,
+                    "src": "1162:9:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_Authority_$420_storage_ptr",
+                      "typeString": "struct AuthorityLibrary.Authority"
+                    }
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 427,
+                "name": "members",
+                "nodeType": "VariableDeclaration",
+                "scope": 428,
+                "src": "1194:17:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_array$_t_address_$dyn_storage_ptr",
+                  "typeString": "address[]"
+                },
+                "typeName": {
+                  "baseType": {
+                    "id": 425,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1194:7:1",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "id": 426,
+                  "length": null,
+                  "nodeType": "ArrayTypeName",
+                  "src": "1194:9:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_array$_t_address_$dyn_storage_ptr",
+                    "typeString": "address[]"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              }
+            ],
+            "name": "AuthorityList",
+            "nodeType": "StructDefinition",
+            "scope": 476,
+            "src": "1112:106:1",
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 474,
+              "nodeType": "Block",
+              "src": "1431:298:1",
+              "statements": [
+                {
+                  "condition": {
+                    "argumentTypes": null,
+                    "commonType": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    },
+                    "id": 447,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "baseExpression": {
+                          "argumentTypes": null,
+                          "expression": {
+                            "argumentTypes": null,
+                            "id": 439,
+                            "name": "_self",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 430,
+                            "src": "1445:5:1",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_struct$_AuthorityList_$428_storage_ptr",
+                              "typeString": "struct AuthorityLibrary.AuthorityList storage pointer"
+                            }
+                          },
+                          "id": 440,
+                          "isConstant": false,
+                          "isLValue": true,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "memberName": "authorities",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": 424,
+                          "src": "1445:17:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Authority_$420_storage_$",
+                            "typeString": "mapping(address => struct AuthorityLibrary.Authority storage ref)"
+                          }
+                        },
+                        "id": 442,
+                        "indexExpression": {
+                          "argumentTypes": null,
+                          "id": 441,
+                          "name": "member",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 432,
+                          "src": "1463:6:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          }
+                        },
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "nodeType": "IndexAccess",
+                        "src": "1445:25:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_Authority_$420_storage",
+                          "typeString": "struct AuthorityLibrary.Authority storage ref"
+                        }
+                      },
+                      "id": 443,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "owner",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 415,
+                      "src": "1445:31:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "==",
+                    "rightExpression": {
+                      "argumentTypes": null,
+                      "arguments": [
+                        {
+                          "argumentTypes": null,
+                          "hexValue": "30",
+                          "id": 445,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "number",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "1488:1:1",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_rational_0_by_1",
+                            "typeString": "int_const 0"
+                          },
+                          "value": "0"
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_rational_0_by_1",
+                            "typeString": "int_const 0"
+                          }
+                        ],
+                        "id": 444,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "lValueRequested": false,
+                        "nodeType": "ElementaryTypeNameExpression",
+                        "src": "1480:7:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_address_$",
+                          "typeString": "type(address)"
+                        },
+                        "typeName": "address"
+                      },
+                      "id": 446,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "typeConversion",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "1480:10:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address_payable",
+                        "typeString": "address payable"
+                      }
+                    },
+                    "src": "1445:45:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "falseBody": null,
+                  "id": 457,
+                  "nodeType": "IfStatement",
+                  "src": "1441:102:1",
+                  "trueBody": {
+                    "id": 456,
+                    "nodeType": "Block",
+                    "src": "1492:51:1",
+                    "statements": [
+                      {
+                        "expression": {
+                          "argumentTypes": null,
+                          "arguments": [
+                            {
+                              "argumentTypes": null,
+                              "id": 453,
+                              "name": "member",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 432,
+                              "src": "1525:6:1",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_address",
+                                "typeString": "address"
+                              }
+                            }
+                          ],
+                          "expression": {
+                            "argumentTypes": [
+                              {
+                                "typeIdentifier": "t_address",
+                                "typeString": "address"
+                              }
+                            ],
+                            "expression": {
+                              "argumentTypes": null,
+                              "expression": {
+                                "argumentTypes": null,
+                                "id": 448,
+                                "name": "_self",
+                                "nodeType": "Identifier",
+                                "overloadedDeclarations": [],
+                                "referencedDeclaration": 430,
+                                "src": "1506:5:1",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_struct$_AuthorityList_$428_storage_ptr",
+                                  "typeString": "struct AuthorityLibrary.AuthorityList storage pointer"
+                                }
+                              },
+                              "id": 451,
+                              "isConstant": false,
+                              "isLValue": true,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "memberName": "members",
+                              "nodeType": "MemberAccess",
+                              "referencedDeclaration": 427,
+                              "src": "1506:13:1",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_array$_t_address_$dyn_storage",
+                                "typeString": "address[] storage ref"
+                              }
+                            },
+                            "id": 452,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "lValueRequested": false,
+                            "memberName": "push",
+                            "nodeType": "MemberAccess",
+                            "referencedDeclaration": null,
+                            "src": "1506:18:1",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_function_arraypush_nonpayable$_t_address_$returns$_t_uint256_$",
+                              "typeString": "function (address) returns (uint256)"
+                            }
+                          },
+                          "id": 454,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "kind": "functionCall",
+                          "lValueRequested": false,
+                          "names": [],
+                          "nodeType": "FunctionCall",
+                          "src": "1506:26:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "id": 455,
+                        "nodeType": "ExpressionStatement",
+                        "src": "1506:26:1"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 468,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "baseExpression": {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 458,
+                          "name": "_self",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 430,
+                          "src": "1553:5:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_AuthorityList_$428_storage_ptr",
+                            "typeString": "struct AuthorityLibrary.AuthorityList storage pointer"
+                          }
+                        },
+                        "id": 461,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "authorities",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 424,
+                        "src": "1553:17:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Authority_$420_storage_$",
+                          "typeString": "mapping(address => struct AuthorityLibrary.Authority storage ref)"
+                        }
+                      },
+                      "id": 462,
+                      "indexExpression": {
+                        "argumentTypes": null,
+                        "id": 460,
+                        "name": "member",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 432,
+                        "src": "1571:6:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      },
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "nodeType": "IndexAccess",
+                      "src": "1553:25:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_Authority_$420_storage",
+                        "typeString": "struct AuthorityLibrary.Authority storage ref"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "arguments": [
+                        {
+                          "argumentTypes": null,
+                          "id": 464,
+                          "name": "member",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 432,
+                          "src": "1612:6:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          }
+                        },
+                        {
+                          "argumentTypes": null,
+                          "id": 465,
+                          "name": "name",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 434,
+                          "src": "1638:4:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_string_calldata_ptr",
+                            "typeString": "string calldata"
+                          }
+                        },
+                        {
+                          "argumentTypes": null,
+                          "hexValue": "74727565",
+                          "id": 466,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "bool",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "1669:4:1",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_bool",
+                            "typeString": "bool"
+                          },
+                          "value": "true"
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 463,
+                        "name": "Authority",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 420,
+                        "src": "1581:9:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_struct$_Authority_$420_storage_ptr_$",
+                          "typeString": "type(struct AuthorityLibrary.Authority storage pointer)"
+                        }
+                      },
+                      "id": 467,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "structConstructorCall",
+                      "lValueRequested": false,
+                      "names": [
+                        "owner",
+                        "name",
+                        "isAuthority"
+                      ],
+                      "nodeType": "FunctionCall",
+                      "src": "1581:103:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_Authority_$420_memory",
+                        "typeString": "struct AuthorityLibrary.Authority memory"
+                      }
+                    },
+                    "src": "1553:131:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_Authority_$420_storage",
+                      "typeString": "struct AuthorityLibrary.Authority storage ref"
+                    }
+                  },
+                  "id": 469,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1553:131:1"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "expression": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 470,
+                        "name": "_self",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 430,
+                        "src": "1702:5:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_AuthorityList_$428_storage_ptr",
+                          "typeString": "struct AuthorityLibrary.AuthorityList storage pointer"
+                        }
+                      },
+                      "id": 471,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "members",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 427,
+                      "src": "1702:13:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_array$_t_address_$dyn_storage",
+                        "typeString": "address[] storage ref"
+                      }
+                    },
+                    "id": 472,
+                    "isConstant": false,
+                    "isLValue": true,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "memberName": "length",
+                    "nodeType": "MemberAccess",
+                    "referencedDeclaration": null,
+                    "src": "1702:20:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "functionReturnParameters": 438,
+                  "id": 473,
+                  "nodeType": "Return",
+                  "src": "1695:27:1"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 475,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "update",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 435,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 430,
+                  "name": "_self",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 475,
+                  "src": "1294:27:1",
+                  "stateVariable": false,
+                  "storageLocation": "storage",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_struct$_AuthorityList_$428_storage_ptr",
+                    "typeString": "struct AuthorityLibrary.AuthorityList"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 429,
+                    "name": "AuthorityList",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 428,
+                    "src": "1294:13:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_AuthorityList_$428_storage_ptr",
+                      "typeString": "struct AuthorityLibrary.AuthorityList"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 432,
+                  "name": "member",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 475,
+                  "src": "1331:14:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 431,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1331:7:1",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 434,
+                  "name": "name",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 475,
+                  "src": "1355:20:1",
+                  "stateVariable": false,
+                  "storageLocation": "calldata",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_calldata_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 433,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1355:6:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1284:97:1"
+            },
+            "returnParameters": {
+              "id": 438,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 437,
+                  "name": "size",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 475,
+                  "src": "1416:9:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 436,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1416:4:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1415:11:1"
+            },
+            "scope": 476,
+            "src": "1269:460:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "external"
+          }
+        ],
+        "scope": 477,
+        "src": "980:751:1"
+      }
+    ],
+    "src": "0:1732:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.6+commit.b259423e.Emscripten.clang"
+  },
+  "networks": {
+    "1603034731341": {
+      "events": {},
+      "links": {},
+      "address": "0xf3De4AB89FE61BBcF8718422D6076ACF13B97DaC",
+      "transactionHash": "0xb597968cb950de70ab63773ce4bfaccf1e7d48fe085dcf2ed0fdadfad8ae7b66"
+    },
+    "1603065036267": {
+      "events": {},
+      "links": {},
+      "address": "0xf3f365bA838618a0Fd2f0AFEE295083E1e44BfB9",
+      "transactionHash": "0xf7a2a794615b7a1a8815bd279123fb7992169ecc5c69f1a94a5ea6b0d9d14d82"
+    },
+    "1603072157179": {
+      "events": {},
+      "links": {},
+      "address": "0xEbfB8EA6a5A507d74fAfA79C29D3CF0584a855B5",
+      "transactionHash": "0x0208bae861dab533725be3aca02fdeaa61bca7814a6efe46d611006591caa332"
+    },
+    "1603188719896": {
+      "events": {},
+      "links": {},
+      "address": "0x112a16711b21992741DDfd8885Ab0ab3f1738977",
+      "transactionHash": "0x4e225ba6f190b4f5ba52f3237c8b7dbc1062bd29b6f4680a8cd896bfc932d58b"
+    },
+    "1603190009686": {
+      "events": {},
+      "links": {},
+      "address": "0xa533094d96F1A6A58082f9EB0332ff640357497e",
+      "transactionHash": "0xbfbe792714121da73a90c54fde65c11bd485f3bf4ce7f759aa11ea2258d64365"
+    },
+    "1603193311910": {
+      "events": {},
+      "links": {},
+      "address": "0x6eD844939889F6a5b084897Aa4B2ec2CEc67906b",
+      "transactionHash": "0x88ce15f81d6994921c3f2f29c653691e99acaa65a6e76d313c959f240d41ed7f"
+    },
+    "1603194110337": {
+      "events": {},
+      "links": {},
+      "address": "0xBC8cde06F487b3B1D62CbE7AFf45808fd28A8F7a",
+      "transactionHash": "0xde792cf3df22e7fa580b1a5f0f3ca0b329816136a8952061cc0ccddf3f17351c"
+    },
+    "1603204025347": {
+      "events": {},
+      "links": {},
+      "address": "0x3C6B4bb88Cdd2cbf1E6e2c29d11901F8B42Be480",
+      "transactionHash": "0x7fd822dc686e770537b1591ab296f1cc2e4723fd63cde533c448435605a3cf18"
+    },
+    "1603205198867": {
+      "events": {},
+      "links": {},
+      "address": "0x9A4aF4727b0e819D3044eACc866b8360DF78371C",
+      "transactionHash": "0x495c4c0ddff2ab1fb3b09c542c16c66e6274265918c4dd1238aa30fd9cb3cfba"
+    },
+    "1603206250529": {
+      "events": {},
+      "links": {},
+      "address": "0x7cdCDE93fB579cb75fc73a0F52415D3DC58B4ee3",
+      "transactionHash": "0x5ab9bec1c75a010138dcdf8c5dd31f35714c964cbfb9b4a57a17a89c8029b900"
+    },
+    "1603206574848": {
+      "events": {},
+      "links": {},
+      "address": "0xC7c881c4dE446e12867cFa48Ef2371180324D2ba",
+      "transactionHash": "0x90991fb19619d2749a0a663fd8e8c75b17f46ead4c8e3bb27a703afa1637c9bf"
+    },
+    "1603253616881": {
+      "events": {},
+      "links": {},
+      "address": "0x7c575c32fecc3cE8ADB7a47Ef38A91ef0dC956aF",
+      "transactionHash": "0x0c709b3171703997d356f5564ce95688cbe118afa9c903ab2b47b980935b91d8"
+    },
+    "1603262151856": {
+      "events": {},
+      "links": {},
+      "address": "0xBf6adD8CEe9a575cFfB5d27E10Fb990C40d593Db",
+      "transactionHash": "0x259671e3c561e10742a3ec371d95869525a28184c5ef9582c1a4f78f42894f09"
+    }
+  },
+  "schemaVersion": "3.1.0",
+  "updatedAt": "2020-10-21T06:35:59.808Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
