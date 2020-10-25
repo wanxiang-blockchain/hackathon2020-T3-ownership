@@ -12,3 +12,5 @@ $ ganache-cli
 $ truffle migrate --network development
 ```
   ganache-cli输出的第一个账户为合约管理员，此外还需记录下CDTRegistry和TaskMarket的合约地址
+
+  在qtum上部署可以[参考链接](https://github.com/ownership-labs/cdt-contracts/tree/main/qtum)
